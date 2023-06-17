@@ -127,6 +127,7 @@ footer{
 
 @media screen and (max-width:800px){
     .gameContainer{
+        margin-top: 3rem;
         flex-wrap: wrap;
     }
 
@@ -139,7 +140,7 @@ footer{
     }
 
     .container{
-        grid-template-columns: repeat(3,16vw);
-        grid-template-rows: repeat(3,16vw);
+        grid-template-columns: repeat(3,20vw);
+        grid-template-rows: repeat(3,20vw);
     }
 }
